@@ -6,19 +6,19 @@ import java.math.BigDecimal;
     * @author Miguel Fuentes
     * @version 1.0.0
     * @see BigDecimal
-    * @since Release1.0.0
+    * @since Release 1.0.0
     */
     public class Order {
 
-        // representa código do pedido
+        // representa Codigo do pedido
         private final String code;
         private final BigDecimal totalValue;
 
     /**
      * Construtor da Classe
      *
-     * @param code          código do pedido
-     * @param totalValue    valor total do pedido
+     * @param code          Codigo do pedido
+     * @param totalValue    Valor total do pedido
      */
     public Order(String code, BigDecimal totalValue) {
         this.code = code;
